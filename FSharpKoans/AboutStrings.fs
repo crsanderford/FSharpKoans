@@ -20,7 +20,7 @@ module ``about strings`` =
     let StringConcatValue() =
         let message = "hello " + "world"
 
-        AssertEquality message __
+        AssertEquality message "hello world"
 
     [<Koan>]
     let FormattingStringValues() =
