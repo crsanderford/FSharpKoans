@@ -14,7 +14,7 @@ module ``about strings`` =
     let StringValue() =
         let message = "hello"
 
-        AssertEquality message __
+        AssertEquality message "hello"
 
     [<Koan>]
     let StringConcatValue() =
