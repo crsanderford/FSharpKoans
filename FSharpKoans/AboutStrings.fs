@@ -26,7 +26,7 @@ module ``about strings`` =
     let FormattingStringValues() =
         let message = sprintf "F# turns it to %d!" 11
 
-        AssertEquality message __
+        AssertEquality message "F# turns it to 11!"
 
         //NOTE: you can use printf to print to standard output
 
