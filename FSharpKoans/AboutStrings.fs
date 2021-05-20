@@ -37,7 +37,7 @@ module ``about strings`` =
     let FormattingOtherTypes() =
         let message = sprintf "hello %s" "world"
 
-        AssertEquality message __
+        AssertEquality message "hello world"
 
     [<Koan>]
     let FormattingAnything() =
